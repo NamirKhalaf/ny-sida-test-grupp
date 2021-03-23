@@ -1,0 +1,47 @@
+body {
+  background: #333333;
+}
+
+.title {
+  color: #FB7200;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  max-width: 87, 5rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.grid-img {
+  display: grid;
+  width: 100%;
+  grid-gap: 3rem;
+}
+
+.column-left {
+  grid-column: 1/3;
+}
+
+.column-middle {
+  grid-column: 4/6;
+}
+
+.column-right {
+  grid-column: 4/7;
+}
+
+img {
+  width: 19rem;
+  height: 19rem;
+  overflow: hidden;
+  border: 1rem solid #C4C4C4;
+}

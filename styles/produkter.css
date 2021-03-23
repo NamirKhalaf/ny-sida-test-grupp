@@ -1,0 +1,27 @@
+body {
+  background: #333333;
+}
+
+.title {
+  color: #FB7200;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  background: #333333;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+  background-color: #C4C4C4;
+}
+
+.grid-item {
+  background: #C4C4C4;
+  color: #FB7200;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  border: 2rem solid #333333;
+}

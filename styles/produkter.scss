@@ -1,0 +1,33 @@
+$maincolor: #333333; 
+$secondarycolor: #C4C4C4; 
+$fontmain: 'Righteous', cursive; 
+$fontcolor: #FB7200; 
+
+body{
+    background: $maincolor;
+
+}
+
+.title {
+    color: $fontcolor;
+    font-family: $fontmain;
+    text-align: center;
+    font-size: 2rem;
+}
+.grid-container {
+    display: grid;
+    background: $maincolor;
+    grid-template-columns: auto  auto;
+    padding: 1rem;
+    background-color: $secondarycolor;
+}
+
+.grid-item{
+    background: $secondarycolor;
+    color: $fontcolor;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    border: 2rem solid $maincolor;
+
+}
